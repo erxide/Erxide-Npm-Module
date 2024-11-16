@@ -23,5 +23,6 @@
   "exports": {
     "require": "./src/logger.js",
     "import": "./src/logger.js"
-  }
+  },
+  "types": "src/logger.d.ts"
 }
