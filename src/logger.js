@@ -78,5 +78,7 @@ class Logger {
     }
 }
 
-module.exports = Logger; // For CommonJS
-exports.default = Logger; // For ES Modules
+const logger = new Logger()
+
+module.exports = logger; // For CommonJS
+exports.default = logger; // For ES Modules
