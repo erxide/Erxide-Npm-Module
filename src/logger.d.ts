@@ -2,7 +2,7 @@ declare module "erxide" {
     /**
      * Logger class for managing logs in applications.
      */
-    class Logger {
+    class logger {
         /**
        * Creates a new Logger instance.
        */
@@ -39,5 +39,5 @@ declare module "erxide" {
         trace(message: string): void;
     }
 
-    export = Logger; // For CommonJS
+    export = logger; // For CommonJS
 }
